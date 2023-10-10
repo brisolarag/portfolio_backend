@@ -5,6 +5,7 @@ const controller = require('./controller/MessageController');
 
 router.get('/all', controller.getAll);
 router.post('/send', controller.sendMessage);
+router.delete('/admin/remove', controller.deleteMessage);
 
 
 
